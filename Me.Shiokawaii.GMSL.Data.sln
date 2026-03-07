@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Me.Shiokawaii.GMSL.Data", "Me.Shiokawaii.GMSL.Data\Me.Shiokawaii.GMSL.Data.csproj", "{52C01CB7-89F6-418F-8739-4E5C5319B396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Me.Shiokawaii.GMSL.Data.Generator", "Me.Shiokawaii.GMSL.Data.Generator\Me.Shiokawaii.GMSL.Data.Generator.csproj", "{D71C7619-4C7D-4024-8F4D-7093FB02DA8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52C01CB7-89F6-418F-8739-4E5C5319B396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C01CB7-89F6-418F-8739-4E5C5319B396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C01CB7-89F6-418F-8739-4E5C5319B396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C01CB7-89F6-418F-8739-4E5C5319B396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71C7619-4C7D-4024-8F4D-7093FB02DA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71C7619-4C7D-4024-8F4D-7093FB02DA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71C7619-4C7D-4024-8F4D-7093FB02DA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71C7619-4C7D-4024-8F4D-7093FB02DA8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
