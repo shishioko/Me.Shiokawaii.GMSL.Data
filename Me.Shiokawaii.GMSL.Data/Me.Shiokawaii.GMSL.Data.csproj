@@ -20,4 +20,13 @@
       <ProjectReference Include="..\Me.Shiokawaii.GMSL.Data.Generator\Me.Shiokawaii.GMSL.Data.Generator.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="1.21.11_protocol.json" />
+      <AdditionalFiles Include="protocol.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Me.Shiokawaii.IO" Version="1.0.4" />
+    </ItemGroup>
+
 </Project>
